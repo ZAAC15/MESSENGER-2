@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">aplicacion2</string>
+    <string name="Bienvenida">MESSENGER 2</string>
+    <string name="Nombre">Santiago C</string>
+    <string name="RegistrateHome">Regístrate</string>
+    <string name="BotonHome">Comienza</string>
+    <string name="TextoHome">Inicia una nueva aventura con MESSENGER 2 y descubre una nueva forma de ver el mundo</string>
+    <string name="registrate_home">Registrate</string>
+    <string name="texto_login">La aventura está por iniciar, por favor inicia sesión</string>
+    <string name="btn_login">Ingresar</string>
+    <string name="recupera_contraseña_login">Recupera Tu Contraseña</string>
+    <string name="google_login">Ingresa con Google</string>
+    <string name="no_tienes_cuenta_home">No tienes cuenta?</string>
+</resources>
