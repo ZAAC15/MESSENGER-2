@@ -12,4 +12,10 @@
     <string name="recupera_contraseña_login">Recupera Tu Contraseña</string>
     <string name="google_login">Ingresa con Google</string>
     <string name="no_tienes_cuenta_home">No tienes cuenta?</string>
+    <string name="nombre2">Nombre</string>
+    <string name="correo_electr_nico">Correo electrónico</string>
+    <string name="contraseña1">Contraseña</string>
+    <string name="verifica_contrase_a">Verifica contraseña</string>
+    <string name="inicia_sesi_n">Inicia sesión</string>
+    <string name="terminos_condiciones">Acepto términos y condiciones</string>
 </resources>

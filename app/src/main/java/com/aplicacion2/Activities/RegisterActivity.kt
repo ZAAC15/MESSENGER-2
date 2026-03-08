@@ -10,19 +10,28 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.aplicacion2.R
 
-class LoginActivity : AppCompatActivity() {
+class RegisterActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_login)
+        setContentView(R.layout.activity_register)
 
-        val txtRegistrate = findViewById<TextView>(R.id.txt_registrate)
+        val regis_Text3 = findViewById<TextView>(R.id.regis_Text3)
 
-        txtRegistrate.setOnClickListener {
+        regis_Text3.setOnClickListener {
 
-            val intent = Intent(this, RegisterActivity::class.java)
+            val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
 
         }
+        val regis_Btn_Registrate = findViewById<Button>(R.id.regis_Btn_Registrate)
+
+        regis_Btn_Registrate.setOnClickListener {
+
+            val intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
+
         }
+
     }
+}
