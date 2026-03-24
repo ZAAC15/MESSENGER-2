@@ -7,13 +7,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/fondo"
-    tools:context=".Activities.SplashActivity">
-    <!-- Espacio flexible arriba -->
+    tools:context=".ui.inicio.SplashActivity">
+
     <View
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1" />
-    <!-- Contenido centrado -->
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -38,13 +38,13 @@
 
     </LinearLayout>
 
-    <!-- Este espacio empuja todo hacia arriba -->
+
     <View
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1" />
 
-    <!-- Nombre abajo derecha -->
+
     <TextView
         android:id="@+id/nombre"
         android:layout_width="match_parent"

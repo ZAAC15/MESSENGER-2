@@ -19,4 +19,12 @@
     <string name="ya_tienes_cuenta">¿Ya tienes cuenta?</string>
     <string name="inicia_sesi_n">Inicia sesión</string>
     <string name="terminos_condiciones">Acepto términos y condiciones</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="inicio">Inicio</string>
+    <string name="Catálogo">Catálogo</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="Perfil">Perfil</string>
+    <string name="open">Abrir menú</string>
+    <string name="close">Cerrar menú</string>
 </resources>

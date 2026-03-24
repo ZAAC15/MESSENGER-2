@@ -1,7 +1,8 @@
-package com.aplicacion2.Activities
+package com.aplicacion2.ui.auth
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.ViewGroup
 import android.widget.Button
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
@@ -33,5 +34,13 @@ class RegisterActivity : AppCompatActivity() {
 
         }
 
+        val rootView = findViewById<ViewGroup>(R.id.main)
+        ViewCompat.setOnApplyWindowInsetsListener(rootView) { v, insets ->
+            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
+            val imeInserts = insets.getInsets(WindowInsetsCompat.Type.ime())
+            val bottomPadding = maxOf(systemBars.bottom, imeInserts.bottom )
+            v.setPadding(systemBars.left, systemBars.top, systemBars.right, bottomPadding)
+            insets
+        }
     }
 }

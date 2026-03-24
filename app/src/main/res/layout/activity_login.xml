@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/fondo"
-    tools:context=".Activities.LoginActivity"
+    tools:context=".ui.auth.LoginActivity"
     android:gravity="center"
     android:orientation="vertical">
 
@@ -54,7 +54,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp">
 
-        <!-- Imagen con los iconos -->
+
         <ImageView
             android:id="@+id/logitos_login"
             android:layout_width="63dp"
@@ -62,7 +62,7 @@
             android:layout_marginEnd="10dp"
             app:srcCompat="@drawable/logitos" />
 
-        <!-- Contenedor de los EditText -->
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
