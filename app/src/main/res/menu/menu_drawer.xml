@@ -5,15 +5,15 @@
         android:title="@string/inicio"
         android:icon="@android:drawable/ic_menu_today"/>
     <item
-        android:id="@+id/nav_catalogo"
-        android:title="@string/Catálogo"
+        android:id="@+id/nav_admin"
+        android:title="@string/Admin"
         android:icon="@android:drawable/ic_menu_gallery"/>
     <item
         android:id="@+id/nav_favoritos"
         android:title="@string/favoritos"
         android:icon="@android:drawable/ic_menu_recent_history"/>
     <item
-        android:id="@+id/nav_perfil"
-        android:title="@string/Perfil"
+        android:id="@+id/nav_usuarios"
+        android:title="@string/Usuarios"
         android:icon="@android:drawable/ic_menu_view"/>
 </menu>

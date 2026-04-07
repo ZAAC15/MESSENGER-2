@@ -27,4 +27,9 @@
     <string name="Perfil">Perfil</string>
     <string name="open">Abrir menú</string>
     <string name="close">Cerrar menú</string>
+    <string name="Usuarios">Usuarios</string>
+    <string name="Admin">Admin</string>
+    <string name="productos_destacados">Productos destacados</string>
+    <string name="imagen_del_producto">Imagen del producto</string>
+    <string name="agregar_producto">Agregar producto</string>
 </resources>
