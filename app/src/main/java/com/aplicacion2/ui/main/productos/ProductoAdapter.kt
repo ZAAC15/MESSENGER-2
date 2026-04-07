@@ -7,7 +7,7 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import android.R
+import com.aplicacion2.R
 class ProductAdapter (
     private val productos: List<Product>
 ): RecyclerView.Adapter<ProductAdapter.ProductViewHolder>(){
