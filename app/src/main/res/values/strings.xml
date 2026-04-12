@@ -32,4 +32,11 @@
     <string name="productos_destacados">Productos destacados</string>
     <string name="imagen_del_producto">Imagen del producto</string>
     <string name="agregar_producto">Agregar producto</string>
+    <string name="editar_perfil">Editar Perfil</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="correo">Correo</string>
+    <string name="nueva_contrase_a">Nueva contraseña</string>
+    <string name="confirmar_contrase_a">Confirmar contraseña</string>
+    <string name="guardar_cambios">Guardar cambios</string>
 </resources>

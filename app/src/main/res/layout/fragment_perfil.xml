@@ -1,14 +1,100 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.main.perfil.PerfilFragment">
+    android:background="@color/fondo"
+    android:orientation="vertical"
+    android:gravity="center">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/editar_perfil"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
 
-</FrameLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="25dp"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/etNombre"
+                android:layout_width="367dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/style_edi_text"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:hint="@string/nombre"
+                android:textColorHint="@color/bordes2"/>
+
+            <EditText
+                android:id="@+id/etApellido"
+                android:layout_width="367dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/style_edi_text"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:hint="@string/apellido"
+                android:textColorHint="@color/bordes2"/>
+
+            <EditText
+                android:id="@+id/etCorreo"
+                android:layout_width="367dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/style_edi_text"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:hint="@string/correo"
+                android:textColorHint="@color/bordes2"
+                android:inputType="textEmailAddress"/>
+
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="367dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/style_edi_text"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:hint="@string/nueva_contrase_a"
+                android:textColorHint="@color/bordes2"
+                android:inputType="textPassword"/>
+
+            <EditText
+                android:id="@+id/etRePassword"
+                android:layout_width="367dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/style_edi_text"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:hint="@string/confirmar_contrase_a"
+                android:textColorHint="@color/bordes2"
+                android:inputType="textPassword"/>
+
+            <Button
+                android:id="@+id/btnGuardar"
+                android:layout_width="267dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/botones"
+                android:text="@string/guardar_cambios"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

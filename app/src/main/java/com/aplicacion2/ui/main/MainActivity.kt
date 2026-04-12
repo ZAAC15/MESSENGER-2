@@ -63,6 +63,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.nav_admin -> cargarFragment(AdminFragment())
                 R.id.nav_usuarios -> cargarFragment(UsuariosFragment())
                 R.id.nav_favoritos -> cargarFragment(FavoritosFragment())
+                R.id.nav_perfil -> cargarFragment(PerfilFragment())
             }
             true
         }
