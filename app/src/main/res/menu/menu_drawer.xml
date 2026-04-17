@@ -16,4 +16,8 @@
         android:id="@+id/nav_usuarios"
         android:title="@string/Usuarios"
         android:icon="@android:drawable/ic_menu_view"/>
+    <item
+        android:id="@+id/nav_salir"
+        android:title="@string/salir"
+        android:icon="@android:drawable/ic_menu_view"/>
 </menu>

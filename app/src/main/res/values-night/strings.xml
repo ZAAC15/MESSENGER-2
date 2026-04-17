@@ -34,4 +34,6 @@
     <string name="nueva_contrase_a">Nueva contraseña</string>
     <string name="confirmar_contrase_a">Confirmar contraseña</string>
     <string name="guardar_cambios">Guardar cambios</string>
+    <string name="ingresar_con_huella">Ingresar con Huella</string>
+    <string name="salir">Salir</string>
 </resources>

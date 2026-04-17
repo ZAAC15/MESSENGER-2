@@ -86,7 +86,7 @@ class RegisterActivity : AppCompatActivity() {
                     .show()
                 return@setOnClickListener
             }
-            if (contrasena.length < 8) {
+            if (contrasena.length < 6) {
                Toast.makeText(this, "La contraseña debe tener al menos 8 caracteres", Toast.LENGTH_SHORT).show()
             }
             if (contrasena != reContrasena) {
